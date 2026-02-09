@@ -1,9 +1,49 @@
-img {
-    width: 600px;
+@font-face {
+    font-family: 'Amonia';
+    src: url(AMORIA.otf); 
 }
+
 body {
+    font-family: Arial, Helvetica, sans-serif,;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+h1{
+    font-family: 'Amonia';
+    color: #ffffff;
+    font-size: 98px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 36px;
+    margin-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+.introP {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.intro {
     text-align: center;
-    font-family: 'Arial';
-    background-color: rgba(224, 143, 181, 0.76);
-    color: rgb(240, 248, 255);
+    padding: 50px;
+    background-color: #6523fd;
+}
+
+img {
+    max-width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
