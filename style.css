@@ -104,3 +104,11 @@ nav a {
     font-weight: bold;
 }
 
+footer {
+    background-color: #b194f7;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
