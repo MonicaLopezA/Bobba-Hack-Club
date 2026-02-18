@@ -79,18 +79,28 @@ img {
     background-color: #a07de0;
 }
 
-.conclusion {
-    font-size: 20px;
-    width: 80%;
-    height: auto;
+
+nav {
     background-color: #b194f7;
-    border-radius: 20px;
-    margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
